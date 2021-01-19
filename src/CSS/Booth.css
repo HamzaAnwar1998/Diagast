@@ -1,0 +1,185 @@
+.booth-container {
+    width: 100%;
+    /* height: 100vh; */
+    height: auto;
+    /* background-image: url('../images/2dbooth.jpg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* @media(max-width: 768px) {
+    .booth-container {
+        height: 450px;
+    }
+} */
+
+.booth-container .booth-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.booth-container .object-img {
+    width: 6%;
+    height: 16%;
+    position: absolute;
+    bottom: 23%;
+    right: 20.3%;
+}
+
+.point-jigs-tools {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 21%;
+    right: 18%;
+    z-index: auto;
+}
+
+.point-kmt {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #a43d3b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 21.15%;
+    left: 40.65%;
+    z-index: auto;
+}
+
+.point-stand {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 31.15%;
+    right: 21.65%;
+    z-index: auto;
+}
+
+.point-tv {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 44.15%;
+    right: 41%;
+    z-index: auto;
+}
+
+.point-video {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 36%;
+    left: 40%;
+    z-index: auto;
+}
+
+.point-video-bottom {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 43.5%;
+    left: 40%;
+    z-index: auto;
+}
+
+.point-banner {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 38.5%;
+    left: 25%;
+    z-index: auto;
+}
+
+.point-brochure {
+    width: 33px;
+    height: 33px;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #245b88;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 34%;
+    left: 18.5%;
+    z-index: auto;
+}
+
+@media(max-width: 768px) {
+
+    .point-brochure,
+    .point-banner,
+    .point-video-bottom,
+    .point-video,
+    .point-tv,
+    .point-stand,
+    .point-kmt,
+    .point-jigs-tools {
+        width: 25px;
+        height: 25px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+}

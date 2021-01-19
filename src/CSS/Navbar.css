@@ -1,0 +1,99 @@
+.navbox {
+    width: 100%;
+    height: 80px;
+    /* box-shadow: 5px 5px 4px #e4e4e4; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.navbox .logo {
+    font-size: 24px;
+    color: #c50303;
+    letter-spacing: 0.09em;
+}
+
+.navbox .links-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbox .links-box div {
+    font-size: 12px;
+    font-weight: 600;
+    color: #c50303;
+    margin: 0px 10px;
+}
+
+.navbox .login-div button {
+    width: 120px;
+    background-color: #c50303;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px 10px;
+    border: hidden;
+    outline: none;
+    border-radius: 20px;
+}
+
+.navbox .toggler {
+    display: none;
+}
+
+@media(max-width: 768px) {
+    .navbox {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .navbox .logo {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .navbox.active {
+        height: 380px;
+    }
+
+    .navbox .links-box {
+        display: none;
+    }
+
+    .navbox.active .links-box.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        top: 50px;
+        left: 12px;
+    }
+
+    .navbox.active .links-box.active div {
+        margin-top: 12px;
+    }
+
+    .navbox .login-div {
+        display: none;
+    }
+
+    .navbox.active .login-div.active {
+        display: flex;
+        position: absolute;
+        bottom: 15px;
+        left: 12px;
+    }
+
+    .navbox .toggler {
+        display: flex;
+        position: absolute;
+        top: 18px;
+        right: 20px;
+    }
+}
