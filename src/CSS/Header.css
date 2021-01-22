@@ -1,0 +1,91 @@
+.header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 4px #e4e4e4;
+    padding: 20px;
+}
+
+@media(max-width: 768px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px;
+    }
+}
+
+.header .box1 {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .box1 .hall-booth-box .squares {
+    width: 70px;
+    height: 70px;
+    background-color: #c50303;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.header .box1 .details-box {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header .visitor-box {
+    padding: 10px;
+}
+
+@media(max-width: 768px) {
+    .header .visitor-box {
+        padding: 22px;
+    }
+}
+
+.header .visitor-box .total-visitor-no {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c50303;
+    color: #fff;
+}
+
+.header .social-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+@media(max-width: 768px) {
+    .header .social-box {
+        padding: 15px;
+    }
+}
+
+.header .social-box .icon {
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+    background: #c50303;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

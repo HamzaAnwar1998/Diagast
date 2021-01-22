@@ -1,0 +1,110 @@
+.backdrop-list{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 1024px){
+    .backdrop-list{
+        width: 55%;
+        left:0;
+    }
+}
+
+.backdrop-list .modal-list {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.backdrop-list .modal-list .close-btn-div {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 15px;
+}
+
+.list-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.list-div .hotspot-heading{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+}
+
+.list-div .items-div{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.list-div .items-div div{
+    width: 100%;
+    height: 45px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7px;
+    color: #444;
+    cursor: pointer;
+}
+
+.list-div .items-div div:hover{
+    background-color: #e4e4e4;
+}
+
+.backdrop-list .modal-list .search-box{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.backdrop-list .modal-list .search-box .input-div{
+    flex: 3;
+}
+
+.backdrop-list .modal-list .search-box .input-div input{
+    width: 100%;
+    height: 40px;
+    border: hidden;
+    border-bottom: 1px solid #e4e4e4;
+    outline: none;
+    text-indent: 2px;
+}
+
+.backdrop-list .modal-list .search-box .button-div{
+    flex: 1;
+}
+
+.backdrop-list .modal-list .search-box .button-div button{
+    width: 100%;
+    height: 40px;
+    border: hidden;
+    outline: none;
+    background-color: #245b88;
+    color: #fff;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+.backdrop-list .modal-list .search-box .button-div button:hover{
+    background-color: #2196f3;
+}
