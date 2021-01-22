@@ -107,13 +107,13 @@ export const Booth = ({setModal, setButtonModal, setSearch, maximize, maximizeFu
                   </div>
                 </Tippy>
 
-                <Tippy content='Machine Tools Maintainance'>
+                {/* <Tippy content='Machine Tools Maintainance'>
                   <div className='rotate-video-bottom'>
                     <div className='point-video-bottom' onClick={handleClicks} id = "video-bottom" data-id = "video-bottom">
                     <i className="fas fa-video"></i>
                     </div>
                   </div>
-                </Tippy>
+                </Tippy> */}
 
                 <Tippy content='New Machines'>
                   <div className='rotate-banner'>
