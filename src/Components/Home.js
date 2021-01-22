@@ -6,7 +6,7 @@ import { Footer } from './Footer'
 import { Header } from './Header'
 import { Booth } from './Booth'
 
-export const Home = ({ setModal, setButtonModal, setSearch, maximize, maximizeFunction, minimizeFunction }) => {
+export const Home = ({ setModal, setButtonModal, setSearch, maximize, maximizeFunction, minimizeFunction}) => {
     return (
         <>
             {/* <Header />

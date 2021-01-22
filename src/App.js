@@ -12,7 +12,7 @@ export class App extends Component {
     modal: null,
     buttonModal: null,
     searchModal: null,
-    maximize: false
+    maximize: false,
   }
 
   setSelectedModal = () => {
@@ -66,11 +66,11 @@ export class App extends Component {
 }
 
 minimizeFunction = () =>{
-  document.exitFullscreen().then(()=>{
-    this.setState({
-      maximize: false
+    document.exitFullscreen().then(()=>{
+      this.setState({
+        maximize: false
+      })
     })
-  })
 }
 
   render() {

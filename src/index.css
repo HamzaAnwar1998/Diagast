@@ -20,6 +20,13 @@ html,body{
   }
 }
 
+@media(max-width: 769px){
+  html,body{
+    background-color: #000 !important;
+    color: #fff;
+  }
+}
+
 .wrapper{
   overflow-x: hidden;
   overflow-y: auto;

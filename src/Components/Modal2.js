@@ -29,7 +29,6 @@ export const Modal2 = ({modal, setModal}) => {
 
     const data = modal==='kmt' ? (
         <>
-          <div>{modal}</div>
           <object className="PDFdoc" width="100%" height="700px" type="application/pdf" data="https://www.antennahouse.com/XSLsample/pdf/sample-link_1.pdf"></object>
         </>
     ):(
@@ -38,9 +37,16 @@ export const Modal2 = ({modal, setModal}) => {
 
     const data2 = modal==='jigs' ? (
         <>
-          <div>{modal}</div>
           <embed src={check} width="100%" height="700px"/>
         </>
+    ):(
+        <div></div>
+    )
+
+    const video = modal ==='video' ? (
+    <>
+        <iframe width="960" height="580" src="https://www.youtube.com/embed/LpPS262ScEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </>
     ):(
         <div></div>
     )
@@ -60,6 +66,9 @@ export const Modal2 = ({modal, setModal}) => {
             <div className='iframe-div'>
                 {data2}
             </div>
+            </>}
+            {video && <>
+              <div className='iframe-div'>{video}</div>
             </>}
         </motion.div>
     </motion.div>
